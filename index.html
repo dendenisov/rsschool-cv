@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Denis Denisov</h1>
+  <img src="/assets/IMG_2673.jpg" alt="My_photo" width="634" height="423">
+</header>
+<main>
+  <section>
+    <h2>Contact info</h2>
+    <ul>
+      <li><b>mobile:</b> <span>+7-911-102-71-45</span></li>
+      <li><b>VK:</b> <span>https://vk.com/neutrinospb</span></li>
+    </ul>
+  </section>
+  <section>
+    <h2>About me</h2>
+    <article>
+        So, I want to successfully complete these courses in order to reorient to a more interesting area for me. I hope that it can allow me to further improve my skills as well as develop myself professionally. I want to understand modern IT technologies, make money on it, and constantly learn something new. 
+
+        Since I started studying programming a couple of months ago, at the moment I have only basic knowledge in the field. I am not-bad guided in HTML/CSS, started to learn JS, with frameworks Node.JS, React, Angular, VueJS, and at the same time I consolidate the main theme of computer science, like OOP, DBMS, etc.
+
+        P.S. I know that the design of this page is terrible, it was created in five minutes for subsequent experiments with technologies, I will check here various methods and techniques.
+    </article>
+  </section>
+  <section>
+    <h2>Skills</h2>
+    <ul>
+        <b>frontend:</b>
+        <ul>
+          <li>js</li>
+          <li>html</li>
+          <li>css</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2>Code examples</h2>
+    <pre>
+        function validBraces(braces){
+            let arr = [];
+              for (i=0; i&#60braces.length; i++) {
+                if (braces[i] == '(' || braces[i] == '[' || braces[i] == '{') {
+              arr.push(braces[i]);  }
+              else {
+              if(arr.length == 0) return false;
+              let last = arr[arr.length-1];
+                if ((braces[i] == ')' && last == '(') || 
+                (braces[i] == ']' && last == '[') || 
+                (braces[i] == '}' && last == '{' )) {
+              arr.pop();   } else {return false;}
+              }
+              }
+               return arr.length == 0;
+            };
+    </pre>
+  </section>
+  <section>
+    <h2>Experience</h2>
+    <article>
+        Unfortunately, at the moment I haven't any professional experiences in programming, except for implementation scripts for targetting advertisement. I go through exercises myself at the <a href="https://www.freecodecamp.org/neutrinospb">Freecodecamp</a>, <a href="https://www.codewars.com/users/dendenisov">Codewars</a> and <a href="https://htmlacademy.ru/profile/neutrinospb">HTML Academy</a>.
+    </article>
+  </section>
+  <section>
+    <h2>Education</h2>
+    <article>
+      <b>Electrotechnical University "LETI"</b>, Saint-Petersburg.
+      Faculty of Electronics, Department of Physical Electronics, Technology and Photonics.
+    </article>
+  </section>
+  <section>
+    <h2>English</h2>
+    <article>
+      upper-intermediate level
+    </article>
+  </section>
+</main>
+<footer>
+  <p>С Уважением,</p>
+  <p>Денис Денисов</p>
+</footer>
+</body>
+</html>
