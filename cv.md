@@ -46,7 +46,7 @@ function validatePIN (pin) {
 
 Unfortunately, at the moment I haven't any professional experiences in programming, except for implementation scripts for targetting advertisement. I go through exercises myself at the [Freecodecamp](https://www.freecodecamp.org/neutrinospb), [Codewars](https://www.codewars.com/users/dendenisov) and [HTMLAcademy](https://htmlacademy.ru/profile/neutrinospb). 
 
-Bachelor's & Master's degree in Saint-Petersburg Electrotechnical University ["LETI"](https://etu.ru/) at Faculty of Electronics, Department of Physical Electronics, Technology and Photonics.  
+Bachelor's & Master's degree in Saint-Petersburg Electrotechnical University ["LETI"](https://etu.ru/) at Faculty of Electronics, Department of Physical Electronics, Technology and Photonics.
 
 I took courses in technical English, went to conversation clubs, and studying English myself.
 
