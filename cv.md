@@ -14,7 +14,12 @@
 
 So, I want to successfully complete these courses in order to reorient to a more interesting area for me. I hope that it can allow me to further improve my skills as well as develop myself professionally. I want to understand modern IT technologies, make money on it, and constantly learn something new. 
 
-Since I started studying programming a couple of months ago, at the moment I have only basic knowledge in the field. I am not-bad guided in HTML/CSS, started to learn JS, with frameworks Node.JS, React, Angular, VueJS, and at the same time I consolidate the main theme of computer science, like OOP, DBMS, etc. 
+**Skills**  
+
+* **Programming Languages:**  ​Javascript(ES5/ES6), HTML5, CSS3, TypeScript(starting)
+* **Tools:**  Gulp, Selenium, Photoshop, Bootstrap, SASS
+* **IDE:** VS Code, Sublime Text 3
+* **Version Control:** Git
 
 **Example of code from Codewars**:
 ### Regex validate PIN code
